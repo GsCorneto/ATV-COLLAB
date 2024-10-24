@@ -1,4 +1,4 @@
-let canVote = function(idade){
+let podeVotar  = function(idade){
     if (idade >= 16){
       return true
     }
@@ -47,7 +47,8 @@ let canVote = function(idade){
       return "Você ainda não pode votar"
     }
   }
+  
   let eleitor1 = votaEleitor(33, "Capilé")
   console.log(eleitor1)
-  let eleitor2 = domicilioEleitoral(16, "Vila Beatriz")
+  let eleitor2 = votaEleitor(16, "Vila Beatriz")
   console.log(eleitor2)
