@@ -1,4 +1,5 @@
-let canVote = function(idade){
+
+let podeVotar  = function(idade){
     if (idade >= 16){
       return true
     }
