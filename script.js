@@ -1,4 +1,3 @@
-
 let podeVotar  = function(idade){
     if (idade >= 16){
       return true
@@ -50,5 +49,5 @@ let podeVotar  = function(idade){
   }
   let eleitor1 = votaEleitor(33 "Capilé")
   console.log(eleitor1)
-  let eleitor2 = domicilioEleitoral(16, "Vila Beatriz")
+  let eleitor2 = votaEleitor(16, "Vila Beatriz")
   console.log(eleitor2)
