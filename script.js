@@ -47,7 +47,8 @@ let podeVotar  = function(idade){
       return "Você ainda não pode votar"
     }
   }
-  let eleitor1 = votaEleitor(33 "Capilé")
+  
+  let eleitor1 = votaEleitor(33, "Capilé")
   console.log(eleitor1)
   let eleitor2 = votaEleitor(16, "Vila Beatriz")
   console.log(eleitor2)
